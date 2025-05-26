@@ -1,0 +1,285 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Plus+Jakarta+Sans%3Awght%40400%3B500%3B700%3B800"
+    />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-[#fcf9f8] group/design-root overflow-x-hidden" style='font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#f3eae7] px-10 py-3">
+          <div class="flex items-center gap-4 text-[#1c110d]">
+            <div class="size-4">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M39.475 21.6262C40.358 21.4363 40.6863 21.5589 40.7581 21.5934C40.7876 21.655 40.8547 21.857 40.8082 22.3336C40.7408 23.0255 40.4502 24.0046 39.8572 25.2301C38.6799 27.6631 36.5085 30.6631 33.5858 33.5858C30.6631 36.5085 27.6632 38.6799 25.2301 39.8572C24.0046 40.4502 23.0255 40.7407 22.3336 40.8082C21.8571 40.8547 21.6551 40.7875 21.5934 40.7581C21.5589 40.6863 21.4363 40.358 21.6262 39.475C21.8562 38.4054 22.4689 36.9657 23.5038 35.2817C24.7575 33.2417 26.5497 30.9744 28.7621 28.762C30.9744 26.5497 33.2417 24.7574 35.2817 23.5037C36.9657 22.4689 38.4054 21.8562 39.475 21.6262ZM4.41189 29.2403L18.7597 43.5881C19.8813 44.7097 21.4027 44.9179 22.7217 44.7893C24.0585 44.659 25.5148 44.1631 26.9723 43.4579C29.9052 42.0387 33.2618 39.5667 36.4142 36.4142C39.5667 33.2618 42.0387 29.9052 43.4579 26.9723C44.1631 25.5148 44.659 24.0585 44.7893 22.7217C44.9179 21.4027 44.7097 19.8813 43.5881 18.7597L29.2403 4.41187C27.8527 3.02428 25.8765 3.02573 24.2861 3.36776C22.6081 3.72863 20.7334 4.58419 18.8396 5.74801C16.4978 7.18716 13.9881 9.18353 11.5858 11.5858C9.18354 13.988 7.18717 16.4978 5.74802 18.8396C4.58421 20.7334 3.72865 22.6081 3.36778 24.2861C3.02574 25.8765 3.02429 27.8527 4.41189 29.2403Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </div>
+            <h2 class="text-[#1c110d] text-lg font-bold leading-tight tracking-[-0.015em]">The Gilded Spoon</h2>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <div class="flex items-center gap-9">
+              <a class="text-[#1c110d] text-sm font-medium leading-normal" href="#">Menu</a>
+              <a class="text-[#1c110d] text-sm font-medium leading-normal" href="#">About</a>
+              <a class="text-[#1c110d] text-sm font-medium leading-normal" href="#">Reservations</a>
+              <a class="text-[#1c110d] text-sm font-medium leading-normal" href="#">Contact</a>
+            </div>
+            <div class="flex gap-2">
+              <button
+                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 bg-[#f3eae7] text-[#1c110d] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+              >
+                <div class="text-[#1c110d]" data-icon="MagnifyingGlass" data-size="20px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+              <button
+                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 bg-[#f3eae7] text-[#1c110d] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+              >
+                <div class="text-[#1c110d]" data-icon="ShoppingCart" data-size="20px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M222.14,58.87A8,8,0,0,0,216,56H54.68L49.79,29.14A16,16,0,0,0,34.05,16H16a8,8,0,0,0,0,16h18L59.56,172.29a24,24,0,0,0,5.33,11.27,28,28,0,1,0,44.4,8.44h45.42A27.75,27.75,0,0,0,152,204a28,28,0,1,0,28-28H83.17a8,8,0,0,1-7.87-6.57L72.13,152h116a24,24,0,0,0,23.61-19.71l12.16-66.86A8,8,0,0,0,222.14,58.87ZM96,204a12,12,0,1,1-12-12A12,12,0,0,1,96,204Zm96,0a12,12,0,1,1-12-12A12,12,0,0,1,192,204Zm4-74.57A8,8,0,0,1,188.1,136H69.22L57.59,72H206.41Z"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+            </div>
+          </div>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="flex flex-wrap justify-between gap-3 p-4">
+              <div class="flex min-w-72 flex-col gap-3">
+                <p class="text-[#1c110d] tracking-light text-[32px] font-bold leading-tight">Our Menu</p>
+                <p class="text-[#9b5d4b] text-sm font-normal leading-normal">Explore our exquisite dishes, crafted with the finest ingredients and culinary expertise.</p>
+              </div>
+            </div>
+            <div class="pb-3">
+              <div class="flex border-b border-[#e8d5cf] px-4 gap-8">
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-[#f15627] text-[#1c110d] pb-[13px] pt-4" href="#">
+                  <p class="text-[#1c110d] text-sm font-bold leading-normal tracking-[0.015em]">Appetizers</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#9b5d4b] pb-[13px] pt-4" href="#">
+                  <p class="text-[#9b5d4b] text-sm font-bold leading-normal tracking-[0.015em]">Main Courses</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#9b5d4b] pb-[13px] pt-4" href="#">
+                  <p class="text-[#9b5d4b] text-sm font-bold leading-normal tracking-[0.015em]">Desserts</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#9b5d4b] pb-[13px] pt-4" href="#">
+                  <p class="text-[#9b5d4b] text-sm font-bold leading-normal tracking-[0.015em]">Drinks</p>
+                </a>
+              </div>
+            </div>
+            <h2 class="text-[#1c110d] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Appetizers</h2>
+            <div class="p-4">
+              <div class="flex items-stretch justify-between gap-4 rounded-xl">
+                <div class="flex flex-[2_2_0px] flex-col gap-4">
+                  <div class="flex flex-col gap-1">
+                    <p class="text-[#1c110d] text-base font-bold leading-tight">Crispy Calamari</p>
+                    <p class="text-[#9b5d4b] text-sm font-normal leading-normal">Tender calamari, lightly battered and fried to perfection, served with a zesty marinara sauce.</p>
+                  </div>
+                  <button
+                    class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 flex-row-reverse bg-[#f3eae7] text-[#1c110d] text-sm font-medium leading-normal w-fit"
+                  >
+                    <span class="truncate">$12</span>
+                  </button>
+                </div>
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex-1"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC-nJ4wd6VLjK64r1b8YDDeJ2FxLJHuxGRs25YhPUbUhwIBHanu_FTIS5SdBfij3FxUqzIzgFkNz1zawv3nTQwP8JWf9KkfdJsO8orv_m7DkLs_HjrxZoBQoA8sRRmz3LSM5ANUBv4GMI_JW45We1FC0xNbGdoD79nMccwzDc_57uAuQJlSNZIlHI-fTLuSUAO3BOpdRXI3lINHC3CbzPp-QMMOaOVBFkMb2gDQ0rnqd2Hceb1pjJosr142jJWg1R5CjpuvkZ609Q");'
+                ></div>
+              </div>
+            </div>
+            <div class="p-4">
+              <div class="flex items-stretch justify-between gap-4 rounded-xl">
+                <div class="flex flex-[2_2_0px] flex-col gap-4">
+                  <div class="flex flex-col gap-1">
+                    <p class="text-[#1c110d] text-base font-bold leading-tight">Bruschetta Trio</p>
+                    <p class="text-[#9b5d4b] text-sm font-normal leading-normal">
+                      A delightful trio of toasted baguette slices topped with fresh tomatoes and basil, creamy ricotta and honey, and savory prosciutto and fig jam.
+                    </p>
+                  </div>
+                  <button
+                    class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 flex-row-reverse bg-[#f3eae7] text-[#1c110d] text-sm font-medium leading-normal w-fit"
+                  >
+                    <span class="truncate">$10</span>
+                  </button>
+                </div>
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex-1"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBpK0fqPvc_c3w64Vk0BValR9LCWSgGBfXJ3NgdhZ8t95R7IUMPbyfCqHxINQVmGEG2PhSgk-JFn-nk198-reFt7f2-3yuwbzF6Pth0moONSWQHdzE02q7kpjp4mZtKICQegzOibQNjP4yQI2YKNT5cJ1OW2ZOmh-_1jn-fumcskdWHFo8k4Qcw3XHLsI8boKrPxoMjLAO4phEUEWFEg38F18P8Zfc2Bk0bdHITgT2tsRhiz2Y1msASYvntRQUO1-MnsLe-4aRKpA");'
+                ></div>
+              </div>
+            </div>
+            <div class="p-4">
+              <div class="flex items-stretch justify-between gap-4 rounded-xl">
+                <div class="flex flex-[2_2_0px] flex-col gap-4">
+                  <div class="flex flex-col gap-1">
+                    <p class="text-[#1c110d] text-base font-bold leading-tight">Spinach and Artichoke Dip</p>
+                    <p class="text-[#9b5d4b] text-sm font-normal leading-normal">
+                      A creamy and cheesy dip with spinach, artichoke hearts, and a hint of garlic, served with warm pita bread.
+                    </p>
+                  </div>
+                  <button
+                    class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 flex-row-reverse bg-[#f3eae7] text-[#1c110d] text-sm font-medium leading-normal w-fit"
+                  >
+                    <span class="truncate">$11</span>
+                  </button>
+                </div>
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex-1"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDaZtqfJKD1qtk0SNjcc_cDVFBg5b3iLZp-1SAAoA8Ryoqa0Z3ENcYOsWWO7E_gNzX4Lr33ct3KLxGoBhVDpZywgYAuuFU7KYNE4dErwmKzt6cDNNrl2o6ZrxVpC0gVVWT7C9cETXQHhOke61C2IITfUGnxdcaNZn1SdxnlxY8HapUlRSdglto1glpNEs4ILhQt5pr5-6qfJIcosceAkt1PMmzy_IKkkhnCmOhD0aoXiCd45B98v5Ni4fY_0nI6RDGEtcO582SHvw");'
+                ></div>
+              </div>
+            </div>
+            <h2 class="text-[#1c110d] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Main Courses</h2>
+            <div class="p-4">
+              <div class="flex items-stretch justify-between gap-4 rounded-xl">
+                <div class="flex flex-[2_2_0px] flex-col gap-4">
+                  <div class="flex flex-col gap-1">
+                    <p class="text-[#1c110d] text-base font-bold leading-tight">Grilled Salmon</p>
+                    <p class="text-[#9b5d4b] text-sm font-normal leading-normal">
+                      Fresh Atlantic salmon fillet, grilled to perfection and served with roasted asparagus and lemon-dill sauce.
+                    </p>
+                  </div>
+                  <button
+                    class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 flex-row-reverse bg-[#f3eae7] text-[#1c110d] text-sm font-medium leading-normal w-fit"
+                  >
+                    <span class="truncate">$24</span>
+                  </button>
+                </div>
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex-1"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAcFTgkOSr9vG6oHc3Ckt6BCawJ34Jyyzz7fZZGiT8x4kfuTPqsAXy7BaoBZgZABav1r7B82J3GLKZc_LO4z-fJqWvBoutL7a-x0EC_aD2BFvdtLSMjcU-eVWG24j35R9md2Y_WWnz3_7LcqKtJqWgNJSDR--iNWO3Ixo9RDHtmSr9VO3nqeZEdiC5yP6eVkmYbqW8eyPc9ne7iS00impUCHsGVPQy_vzSBDttQeH5IJsDQxpsdKaCeI-dlM1d5FvJkHyuwvlwcbA");'
+                ></div>
+              </div>
+            </div>
+            <div class="p-4">
+              <div class="flex items-stretch justify-between gap-4 rounded-xl">
+                <div class="flex flex-[2_2_0px] flex-col gap-4">
+                  <div class="flex flex-col gap-1">
+                    <p class="text-[#1c110d] text-base font-bold leading-tight">Filet Mignon</p>
+                    <p class="text-[#9b5d4b] text-sm font-normal leading-normal">
+                      Tender filet mignon, cooked to your preference, served with mashed potatoes and a red wine reduction.
+                    </p>
+                  </div>
+                  <button
+                    class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 flex-row-reverse bg-[#f3eae7] text-[#1c110d] text-sm font-medium leading-normal w-fit"
+                  >
+                    <span class="truncate">$32</span>
+                  </button>
+                </div>
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex-1"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuACwrkQnexeThlkMM-9l4eLBOONq9l0h3gDbfjB_X3QeofqI8sHRMEA50MZ8lMqneRQRcoPz0YHpXyxknJhP5zP_r-Bbnjyw7Qbt4PcfVDnH9070Alc7w6bEipRLYuueB3-L8i1Uzzmd0teeLX-KPy1NT-hEWannvu0KuBE5fxkFFsOT8KyBiRyE5EVGQipjrd0D2aKD134ZrKa1RII6SVCWcP3nrKJGMsSn5NF5t2sEKEb6A-z-Q-6bnjGaXb8MkRa4ajuqUxFgA");'
+                ></div>
+              </div>
+            </div>
+            <div class="p-4">
+              <div class="flex items-stretch justify-between gap-4 rounded-xl">
+                <div class="flex flex-[2_2_0px] flex-col gap-4">
+                  <div class="flex flex-col gap-1">
+                    <p class="text-[#1c110d] text-base font-bold leading-tight">Vegetable Paella</p>
+                    <p class="text-[#9b5d4b] text-sm font-normal leading-normal">
+                      A vibrant and flavorful Spanish rice dish with a medley of seasonal vegetables, saffron, and a touch of smoked paprika.
+                    </p>
+                  </div>
+                  <button
+                    class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 flex-row-reverse bg-[#f3eae7] text-[#1c110d] text-sm font-medium leading-normal w-fit"
+                  >
+                    <span class="truncate">$20</span>
+                  </button>
+                </div>
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex-1"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCtT3apDDzQphHBv06gyu8JDBxocDi2bYN91dz-50Htd9wTkgd4Wy54VTtJeSeboDsewupl7Fbk7S8de_RZCFM8uauTvvQRUW81ss0W5rCw5W0Dt92kt-5VTRRMOgcgLj4W3boQlc4KV4iZwFwrWQqwDUH5Bs3xFtnTcF0SYMDQAIS3d_IMq2YFw_jCxjtuSssRaPoTcY0RE_1OnQXg2Z0HfV182md7H3N2qQiCP-uJ4eHc2NGSiCwpEQTye26H5IZshIvc-KN4wQ");'
+                ></div>
+              </div>
+            </div>
+            <h2 class="text-[#1c110d] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Desserts</h2>
+            <div class="p-4">
+              <div class="flex items-stretch justify-between gap-4 rounded-xl">
+                <div class="flex flex-[2_2_0px] flex-col gap-4">
+                  <div class="flex flex-col gap-1">
+                    <p class="text-[#1c110d] text-base font-bold leading-tight">Chocolate Lava Cake</p>
+                    <p class="text-[#9b5d4b] text-sm font-normal leading-normal">
+                      A warm, gooey chocolate cake with a molten chocolate center, served with vanilla bean ice cream.
+                    </p>
+                  </div>
+                  <button
+                    class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 flex-row-reverse bg-[#f3eae7] text-[#1c110d] text-sm font-medium leading-normal w-fit"
+                  >
+                    <span class="truncate">$9</span>
+                  </button>
+                </div>
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex-1"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAQlXnfhuBbi4uRgEby7nhOSV5pHqTK9xeB6T4PJdS7JVdvC6JaOJz6rNBWBwcPJ4l-M7zbLRv4dugUgCQbAKPNFe-iNJz3iFJKBTiUDQ40L3akfxSkL3D7RWgcqiyemt9C4adnd3XJkhaGkem8CY-uc4WgPgp7s-oQm-w_KoWZew9zIGw8UaQoSzGJnnYLX7LttAemm-fi-_y8m87oW6i-ktmD7lp2P6jq1F-ESbfInfEdSPhFkezY27ImP5fEPHyrUTEG368iuA");'
+                ></div>
+              </div>
+            </div>
+            <div class="p-4">
+              <div class="flex items-stretch justify-between gap-4 rounded-xl">
+                <div class="flex flex-[2_2_0px] flex-col gap-4">
+                  <div class="flex flex-col gap-1">
+                    <p class="text-[#1c110d] text-base font-bold leading-tight">Crème Brûlée</p>
+                    <p class="text-[#9b5d4b] text-sm font-normal leading-normal">
+                      A classic French custard dessert with a creamy vanilla bean custard base and a crisp caramelized sugar crust.
+                    </p>
+                  </div>
+                  <button
+                    class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 flex-row-reverse bg-[#f3eae7] text-[#1c110d] text-sm font-medium leading-normal w-fit"
+                  >
+                    <span class="truncate">$8</span>
+                  </button>
+                </div>
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex-1"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBVM65VRi6I0o-3QaxXxv0OlIPfJTskrB2EJj3b-dkCZF7aFas2ybCO0O2mdtjSFuriMKZ38wpdtnSqI1KVNfDGZ8-A8nlzh_jcU1U4CTeXE6Jgxt7vM9Gue9g3VsMI1YbZuMq-lU9Qsy4cQLWbHxv0ahYZCmQdDlUjMowL4RHzL7lSChwMuxw17KaraTQdd93geL4So_RdLCEa3AtLCvYhzGrvDqBYtf4HF4XjpuXbXE3lPcihkDXEZzvqsRm0j3qWaGF27R50wQ");'
+                ></div>
+              </div>
+            </div>
+            <div class="p-4">
+              <div class="flex items-stretch justify-between gap-4 rounded-xl">
+                <div class="flex flex-[2_2_0px] flex-col gap-4">
+                  <div class="flex flex-col gap-1">
+                    <p class="text-[#1c110d] text-base font-bold leading-tight">Fruit Tart</p>
+                    <p class="text-[#9b5d4b] text-sm font-normal leading-normal">
+                      A delicate pastry tart filled with a sweet cream and topped with an assortment of fresh, seasonal fruits.
+                    </p>
+                  </div>
+                  <button
+                    class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 flex-row-reverse bg-[#f3eae7] text-[#1c110d] text-sm font-medium leading-normal w-fit"
+                  >
+                    <span class="truncate">$7</span>
+                  </button>
+                </div>
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex-1"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuATHYeXGNzkmlX7rOApQkwPW8HTtSDLurdyouQpyBWtMcidk_90FSPsY32n-gw7dEmznWs26les5GOL49zo3PYsgnZAwwg_AaD7xt_ehLyqOrvWpNd7iu3kTzNlN9WIIV_7PXgMgnMPC0I5fV9mVa2KTHtThWZ7wZ3Yrc1kaw6Kh-OmDRF3p5BmmUKoRFHBdVRn_EJj7JhneXTYdsF1m47-HlGzYrgWrTTOcMtuUGTLYyWFmXiRKNw2WnAtB069hP9CzLoXy6Kwxw");'
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
